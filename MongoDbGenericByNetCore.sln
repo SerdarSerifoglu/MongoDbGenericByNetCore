@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbGenericApi", "MongoDbGenericApi\MongoDbGenericApi.csproj", "{700261ED-0A29-46F0-B4F4-80EFF2459F20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6A8BAD19-3604-4A7B-803E-2F50BF6C4BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{232CD0AE-3912-446C-AA71-8036099329DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{700261ED-0A29-46F0-B4F4-80EFF2459F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{700261ED-0A29-46F0-B4F4-80EFF2459F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{700261ED-0A29-46F0-B4F4-80EFF2459F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8BAD19-3604-4A7B-803E-2F50BF6C4BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8BAD19-3604-4A7B-803E-2F50BF6C4BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8BAD19-3604-4A7B-803E-2F50BF6C4BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8BAD19-3604-4A7B-803E-2F50BF6C4BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232CD0AE-3912-446C-AA71-8036099329DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232CD0AE-3912-446C-AA71-8036099329DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232CD0AE-3912-446C-AA71-8036099329DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232CD0AE-3912-446C-AA71-8036099329DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
