@@ -1,3 +1,4 @@
+using BLL;
 using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,8 @@ namespace MongoDbGenericApi
 
             services.AddSingleton<IMongoDbSettings>(serviceProvider =>
                 serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value);
+
+            services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
